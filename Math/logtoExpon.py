@@ -1,3 +1,4 @@
+# Nate-ar
 while True:
     print("1. Log to Expon")
     print("2. Expon to Log")
