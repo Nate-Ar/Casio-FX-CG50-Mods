@@ -20,7 +20,7 @@ elif ques == "2":
     q = 1 - p
     # print the Variance
     print("{0}*{1}*{2} = {3}".format(n,p,q,n*p*q))
-# if the user wants standard variation
+# if the user wants standard deviation
 elif ques == "3":
     # get Q value
     q = 1 - p
