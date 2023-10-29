@@ -3,6 +3,12 @@ Create pull request if you have an mod ideas
 ## Math
 Factoring.py - this program takes an input of an int and returns all factors of the input <br>
 GCF.py - takes 2 inputs that are ints and returns the gratest common factor <br>
+## Stats
+basic.py - this program is to fine the mean/variance/standard deviation of binomial problems <br>
+combo.py - lets user get the combonation of any problem <br>
+funCombo.py - this is a custom funtion for Micro Python that returns the combonation of numbers(needed for comb.py/probabilityDis.py) <br>
+probabliltyDis.py - let user run probubility distrobution problems single and range x value <br>
+randomNumber.py - lets you define range and pick any number of values from set <br>
 
 ## Installation
 1. Plug in your calculator and click f1 <br>
