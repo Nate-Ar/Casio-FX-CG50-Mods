@@ -1,5 +1,5 @@
 # Casio-FX-CG50-Mods
-Create pull request if you have an mod ideas
+Create pull request if you have a mod ideas
 ## Math
 Factoring.py - this program takes an input of an int and returns all factors of the input <br>
 GCF.py - takes 2 inputs that are ints and returns the gratest common factor <br>
