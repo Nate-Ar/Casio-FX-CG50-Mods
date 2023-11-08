@@ -19,6 +19,7 @@ def single():
     print("c({0},{1})*{2}^{3}*{4}^{5}-{6}".format(x, n, p, x, q, n, x))
     print(a * b * c)
     print("TotalDis = {0}%".format(round(a*b*c*100, 2)))
+    print("-------")
 
 
 # range of X values
@@ -54,6 +55,7 @@ def ranges():
     # print the total of the probability distribution
     print("Total = {0}".format(totalprob))
     print("TotalDis = {0}%".format(round(totalprob*100, 2)))
+    print("-------")
 
 
 # loop to make the code run and run
