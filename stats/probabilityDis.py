@@ -3,19 +3,6 @@
 # this program dose and shows to work for probability distribution
 import funCombo
 import math
-# ask if user is using range of x value
-print("1(single),2(range)")
-# store response
-ques = input("> ")
-# get P value
-p = float(input("P> "))
-# calculate q value
-q = 1 - p
-# making sure it's a binomial problem q + p should always be 1
-if q+p != 1:
-    print("Not binomial problem")
-# get N value
-n = int(input("N> "))
 
 
 # single X value
@@ -69,8 +56,26 @@ def ranges():
     print("TotalDis = {0}%".format(round(totalprob*100, 2)))
 
 
-# code to run the correct funtion based on the first question asked the user
-if ques == "1":
-    single()
-elif ques == "2":
-    ranges()
+# loop to make the code run and run
+while True:
+    # show user options
+    print("1(single),2(range),3(quit)")
+    # store response
+    ques = input("> ")
+    # see if user wants to quit
+    if ques == "3":
+        quit()
+    # get P value
+    p = float(input("P> "))
+    # calculate q value
+    q = 1 - p
+    # making sure it's a binomial problem q + p should always be 1
+    if q+p != 1:
+        print("Not binomial problem")
+    # get N value
+    n = int(input("N> "))
+    # do what the user wants
+    if ques == "1":
+        single()
+    elif ques == "2":
+        ranges()
