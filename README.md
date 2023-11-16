@@ -11,7 +11,9 @@ Create pull request if you have a mod ideas
 5. randomNumber.py - lets you define range and pick any number of values from set <br>
 6. geoBasic.py - lets you fine the mean/variance/standard deviation of geo problems <br>
 7. geodistrobution.py - let user run probability distribution of geo problems single and range x value <br>
-8. StanderedNormalDis.py - lets the user solve standard normal distribution problems
+8. StanderedNormalDis.py - lets the user solve standard normal distribution problems <br>
+9. samplingDistrobution.py - lets you solve sampling distribution problems <br>
+10. zcahrtconversion.py - conversion funtion used in standardNormalDis.py and samplingDistribution.py <br>
 
 ## Installation
 1. Plug in your calculator and click f1 <br>
