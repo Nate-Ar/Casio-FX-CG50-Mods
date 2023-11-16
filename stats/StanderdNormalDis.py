@@ -1,7 +1,6 @@
 # Nate-ar
 # Nov 16 2023
 # Standard Normal Distribution
-import math
 
 
 # z form parsing
