@@ -14,6 +14,7 @@ Create pull request if you have a mod ideas
 8. StanderedNormalDis.py - lets the user solve standard normal distribution problems <br>
 9. samplingDistrobution.py - lets you solve sampling distribution problems <br>
 10. zcahrtconversion.py - conversion funtion used in standardNormalDis.py and samplingDistribution.py <br>
+11. standardDistribution - different than standard normal distribution <br>
 
 ## Installation
 1. Plug in your calculator and click f1 <br>

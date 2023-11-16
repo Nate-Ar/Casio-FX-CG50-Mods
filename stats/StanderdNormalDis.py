@@ -17,7 +17,7 @@ def zfoarm():
 m = float(input("Mean> "))
 # get x value
 x = float(input("X> "))
-# get standard deviation also called sigma but not the greek version
+# get standard deviation also called sigma
 sigma = float(input("Sigma> "))
 # do the zform conversion so user can see what a will be
 z = zfoarm()
