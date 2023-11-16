@@ -22,8 +22,8 @@ sigma = float(input("Sigma> "))
 # do the zform conversion so user can see what a will be
 z = zfoarm()
 # get the sign, so you know what conversion to do before looking at the z table
-print("1(z<a), 2(z>-a), 3(z<-a)")
-print("4(z>a)")
+print("1(z<a), 2(z>-a),")
+print("3(z<-a), 4(z>a)")
 sign = input("Sign: ")
 # make sign selection and print anwcer
 zchartConversion.converson(z, sign)
