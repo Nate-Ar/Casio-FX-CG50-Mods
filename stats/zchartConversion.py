@@ -22,7 +22,7 @@ def converson(z,sign):
         z = -z
         # print work
         print("1-p(z<{0})".format(z))
-        print("= {0}".format(1 - z))
+        print("= 1 - zchar value of {0}".format(z))
     #     complement Rule
     elif sign == "4":
         # explain rule
@@ -30,4 +30,4 @@ def converson(z,sign):
         print("flip sign and 1 - p")
         # print work
         print("1-p(z<{0})".format(z))
-        print("= {0}".format(z))
+        print("= 1 - zchar value {0}".format(z))
